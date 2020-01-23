@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test_1</title>
+  </head>
+  <body>
+    <style>
+        #div1, #div2 {
+          float: left;
+          width: 320px;
+          height: 240px;
+          margin: 10px;
+          padding: 10px;
+          border: 1px solid black;
+        }
+        #header {
+            position: absolute;
+            top: 280px;
+  right:800px;
+  
+}
+
+        </style>
+    
+    
+        <script>
+        function allowDrop(ev) {
+          ev.preventDefault();
+        }
+        
+        function drag(ev) {
+          ev.dataTransfer.setData("text", ev.target.id);
+        }
+        
+        function drop(ev) {
+          ev.preventDefault();
+          var data = ev.dataTransfer.getData("text");
+          ev.target.appendChild(document.getElementById(data));
+        }
+        </script>
+        </head>
+        <body>
+        
+        
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <video width="320" height="240" muted autoplay  draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+                <source src="C:\Users\hp\Desktop\Web_fb\video\1.mp4" type="video/mp4" />
+      
+    </video>
+        </div>
+        
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <br>
+       <div id="header">
+        <svg >
+       <image href="C:\Users\hp\Desktop\Web_fb\image\images2.jpg" width="200" height="200"/>
+           
+          </svg>
+       </div> 
+  </body>
+
+</html>

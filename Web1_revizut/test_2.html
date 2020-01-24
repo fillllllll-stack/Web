@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .header {
+        height: 90px;
+        background-color: white;
+        text-shadow: 2px 2px 5px gray;
+      }
+      .logo {
+        position: relative;
+        left: 10px;
+      }
+      .aliniere {
+        position: relative;
+        top: -100px;
+        display: inline-block;
+        float: right;
+      }
+      .sidebar_left {
+        height: 300px;
+        border-right: gray 1px;
+        float: left;
+      }
+      .sidebar_right {
+        height: 300px;
+        border-right: gray 1px;
+        float: right;
+        position: relative;
+        left: 380px;
+      }
+      .footer {
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 0px;
+        text-align: center;
+      }
+      img {
+        width: 90px;
+        height: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img class="logo" src="logo.PNG" alt="Imag" />
+
+      <div class="aliniere">
+        <a href="#about" style="padding-right: 50px;">About</a>
+        <a href="#services" style="padding-right: 50px;">Services</a>
+        <a href="#clients" style="padding-right: 50px;">Clients</a>
+        <a href="#contact" style="padding-right: 50px;">Contact</a>
+      </div>
+    </div>
+    <div class="sidebar_left">
+      <ul>
+        <li><a href="#" class="#">Link 1</a></li>
+        <li><a href="#" class="#">Link 2</a></li>
+        <li><a href="#" class="#">Link 3</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar_right">
+      <ul>
+        <li><a href="#" class="#">Link 1</a></li>
+        <li><a href="#" class="#">Link 2</a></li>
+        <li><a href="#" class="#">Link 3</a></li>
+      </ul>
+    </div>
+    <footer class="footer">
+      <p>Acesta este footerul</p>
+    </footer>
+  </body>
+</html>

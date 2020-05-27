@@ -1,0 +1,223 @@
+.bd {
+  width: 2480px;
+  height: 3508px;
+  background-size: 100%;
+  background-image: url("836_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+ul {
+  list-style-type: none;
+}
+.headline {
+  list-style-type: none;
+  position: relative;
+  margin-top: 140px;
+  margin-left: 25px;
+}
+.creative {
+  font-size: 131px;
+  color: #ffffff;
+  font-family: "Myriad Pro";
+}
+.studio {
+  font-size: 296px;
+  color: #f5db3c;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  position: relative;
+  margin-top: 0px;
+}
+.design {
+  font-size: 188px;
+  color: #ffffff;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  position: relative;
+  margin-top: 0px;
+}
+.ipsum {
+  font-size: 98px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  position: relative;
+  margin-top: 40px;
+}
+.head_right {
+  list-style-type: none;
+  position: relative;
+  margin-top: 155px;
+  float: right;
+  position: relative;
+  top: -1060px;
+  right: 105px;
+}
+.the {
+  letter-spacing: 0px;
+  font-size: 75px;
+  color: #ffffff;
+  font-family: "Myriad Pro";
+  display: inline-block;
+}
+.flyer {
+  letter-spacing: 0px;
+  font-size: 199px;
+  color: #ffffff;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+}
+.alighn {
+  font-size: 211px;
+  color: #f5db3c;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+}
+.brand {
+  font-size: 241px;
+  color: #f5db3c;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  position: relative;
+  top: -100px;
+}
+.our {
+  list-style-type: none;
+  font-size: 235px;
+  color: #282728;
+  font-family: "Myriad Pro";
+  position: relative;
+  left: 150px;
+  top: 120px;
+}
+.mission {
+  font-size: 135px;
+}
+.dolor {
+  list-style-type: none;
+  font-size: 73px;
+  letter-spacing: 4px;
+  color: #ffffff;
+  font-family: "Avenir";
+  font-weight: 500;
+  position: relative;
+  top: -50px;
+  left: 290px;
+}
+.smid {
+  list-style-type: none;
+  font-size: 105px;
+  letter-spacing: 11px;
+  color: #000000;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  position: relative;
+  bottom: 360px;
+  left: 1100px;
+}
+.ideas {
+  font-size: 160px;
+  color: #f5db3c;
+  font-weight: bold;
+}
+.lor_i {
+  list-style-type: none;
+  font-size: 38px;
+  color: #a3b3b9;
+  font-family: "Myriad Pro";
+  position: relative;
+  bottom: 630px;
+  left: 1700px;
+}
+.des {
+  font-size: 71px;
+  letter-spacing: 7px;
+  color: #282728;
+  font-family: "Myriad Pro";
+
+  position: relative;
+  bottom: 450px;
+  left: 300px;
+}
+.lor_1 {
+  font-size: 38px;
+  color: #a3b3b9;
+  font-family: "Myriad Pro";
+  position: relative;
+  bottom: 450px;
+  left: 100px;
+}
+.lor_2 {
+  font-size: 38px;
+  color: #a3b3b9;
+  font-family: "Myriad Pro";
+  position: relative;
+  bottom: 660px;
+  left: 900px;
+}
+.lor_3 {
+  font-size: 38px;
+  color: #a3b3b9;
+  font-family: "Myriad Pro";
+  position: relative;
+  bottom: 854px;
+  left: 1700px;
+}
+.work {
+  font-size: 71px;
+  letter-spacing: 7px;
+  color: #282728;
+  font-family: "Myriad Pro";
+  position: relative;
+  bottom: 1320px;
+  left: 1100px;
+}
+.office {
+  font-size: 71px;
+  letter-spacing: 7px;
+  color: #282728;
+  font-family: "Myriad Pro";
+  position: relative;
+  bottom: 1560px;
+  left: 1930px;
+}
+.modern {
+  font-size: 91px;
+  color: #ffffff;
+  font-family: "Myriad Pro";
+  position: relative;
+  bottom: 1060px;
+  left: 100px;
+}
+
+.phaselllus {
+  font-size: 31px;
+  color: #ffffff;
+  font-family: "Myriad Pro";
+  position: relative;
+  bottom: 1120px;
+  left: 100px;
+}
+.call{
+  font-size: 86px;
+color: #ffffff;
+font-family: "Myriad Pro";
+
+position: relative;
+  bottom: 1500px;
+  left: 1700px;
+}
+.number{
+  font-size: 98px;
+color: #f5db3b;
+font-family: "Myriad Pro";
+font-weight: bold;
+position: relative;
+  bottom: 1570px;
+  left: 1700px;
+}
